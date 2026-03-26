@@ -1,0 +1,59 @@
+length() – returns number of characters
+isEmpty() – checks if string length is 0
+isBlank() – checks if string is empty or whitespace only
+charAt(int index) – returns character at given index
+codePointAt(int index) – returns Unicode at index
+codePointBefore(int index) – Unicode before index
+codePointCount(int begin, int end) – counts Unicode characters
+offsetByCodePoints(int index, int offset) – index shifted by code points
+equals(Object obj) – compares content equality
+equalsIgnoreCase(String str) – compares ignoring case
+compareTo(String str) – lexicographic comparison
+compareToIgnoreCase(String str) – compare ignoring case
+contentEquals(CharSequence cs) – compares with sequence
+regionMatches(...) – compares specific regions of strings
+startsWith(String prefix) – checks prefix
+endsWith(String suffix) – checks suffix
+contains(CharSequence s) – checks substring presence
+matches(String regex) – matches regex pattern
+indexOf(int ch) – first occurrence of char
+indexOf(String str) – first occurrence of string
+indexOf(String str, int fromIndex) – search from index
+lastIndexOf(int ch) – last occurrence of char
+lastIndexOf(String str) – last occurrence of string
+lastIndexOf(String str, int fromIndex) – backward search
+substring(int begin) – extract from index
+substring(int begin, int end) – extract range
+subSequence(int begin, int end) – returns subsequence
+concat(String str) – joins two strings
+replace(char old, char new) – replaces characters
+replace(CharSequence target, CharSequence repl) – replaces sequence
+replaceFirst(String regex, String repl) – replaces first match
+replaceAll(String regex, String repl) – replaces all matches
+toLowerCase() – converts to lowercase
+toUpperCase() – converts to uppercase
+trim() – removes leading/trailing spaces
+strip() – removes whitespace (Unicode aware)
+stripLeading() – removes leading spaces
+stripTrailing() – removes trailing spaces
+split(String regex) – splits string into array
+split(String regex, int limit) – split with limit
+join(CharSequence delimiter, CharSequence... elements) – joins multiple strings
+toCharArray() – converts to char array
+getBytes() – converts to byte array
+getBytes(Charset cs) – bytes using charset
+getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin) – copies chars
+valueOf(...) – converts primitives/objects to string
+copyValueOf(char[] data) – creates string from char array
+copyValueOf(char[] data, int offset, int count) – partial array
+intern() – stores string in pool
+repeat(int count) – repeats string multiple times
+format(String format, Object... args) – formatted string (static)
+formatted(Object... args) – instance formatting
+lines() – returns stream of lines
+chars() – returns IntStream of characters
+codePoints() – returns Unicode stream
+indent(int n) – adjusts indentation
+stripIndent() – removes common indentation
+translateEscapes() – interprets escape sequences
+transform(Function f) – applies function to string
